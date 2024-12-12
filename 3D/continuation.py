@@ -21,7 +21,7 @@ for i in range(continuationSteps):
 
     # initialise optimisation class
     optimisationClass = OptimisationLoop()
-    optimisationClass.maximumNumberOfIterations = 25
+    optimisationClass.maximumNumberOfIterations = 50
     optimisationClass.beta = betaContinuationList[i]
 
     # determine if this is the first iteration of continuation
